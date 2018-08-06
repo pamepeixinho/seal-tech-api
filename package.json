@@ -4,7 +4,7 @@
   "description": "Fullstarks API",
   "main": "index.js",
   "scripts": {
-    "start": "DEBUG=node; node app/index.js"
+    "start": "node app/index.js"
   },
   "repository": {
     "type": "git",
