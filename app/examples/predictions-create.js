@@ -1,7 +1,6 @@
 const { upsert } = require('../models/prediction');
 
 const upsert2 = () => {
-
   const prediction = {
     teacher: 'mr teacher',
     courses: [{
@@ -35,7 +34,7 @@ const upsert2 = () => {
       ],
       modules: [
         {
-          id: 01,
+          id: 1,
           name: 'Introduction',
           meanCommitment: 0.55,
           commitmentPerStudent: [
@@ -84,7 +83,7 @@ const upsert2 = () => {
               title: 'aula maneira 2',
               date: '20/01/2017',
               data: { foo: 'bar' },
-            }
+            },
           ],
         },
       ],
