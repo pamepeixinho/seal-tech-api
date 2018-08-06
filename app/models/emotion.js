@@ -26,13 +26,11 @@ const upsert = (doc) => {
   const emotion = new Emotion(doc);
   const obj = emotion.toObject();
 
-	return emotion.validate()
-    .then(function() {
-      return Emotion
-        .findOneAndUpdate({ id: obj._id }, obj, { upsert: true, new: true })
-        .lean()
-        .exec();
-    });
-}
+  return emotion.validate()
+    .then(() => Emotion
+      .findOneAndUpdate({ id: obj._id }, obj, { upsert: true, new: true }) // eslint-disable-line
+      .lean()
+      .exec());
+};
 
 module.exports = { find, upsert };
