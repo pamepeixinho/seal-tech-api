@@ -2,7 +2,12 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 
-const { upsert, selectAll, addNewEmotion } = require('../models/train');
+const {
+  upsert,
+  selectAll,
+  addNewEmotion,
+  findAndUpdate,
+} = require('../models/train');
 const { uploadToS3 } = require('../controllers/S3.js');
 
 const router = express.Router();
@@ -62,8 +67,16 @@ router.post('/upload-frame/:id', (req, res) => {
   });
 });
 
-router.post('/answers', (req, res) => {
-  console.log(req, res);
+router.post('/answers/:id', (req, res) => {
+  const { body } = req;
+  const { id } = req.params;
+
+  const { grade } = body;
+
+  findAndUpdate(id, { grade }, (err, doc) => {
+    console.log('doc', doc);
+    res.send(doc);
+  });
 });
 
 router.get('/all', (req, res) => {

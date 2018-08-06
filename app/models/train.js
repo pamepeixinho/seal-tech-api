@@ -53,6 +53,11 @@ const addNewEmotion = (id, emotions, callback) => {
     .exec(callback);
 };
 
+const findAndUpdate = (id, data, callback) => Train
+  .findByIdAndUpdate(id, data)
+  .lean()
+  .exec(callback);
+
 module.exports = {
-  find, upsert, selectAll, addNewEmotion,
+  find, upsert, selectAll, addNewEmotion, findAndUpdate,
 };
