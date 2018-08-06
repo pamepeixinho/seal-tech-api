@@ -1,8 +1,9 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+
+const router = express.Router();
 const { find } = require('../models/prediction');
 
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
   find('mr teacher').then((teacher) => {
     res.json(teacher[0]);
   });

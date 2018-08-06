@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-const Schema = mongoose.Schema;
-const ObjectId = Schema.ObjectId;
- 
+const { Schema } = mongoose;
+const { ObjectId } = Schema;
+
 const EmotionSchema = new Schema({
   id: ObjectId,
   anger: Number,
@@ -15,27 +15,21 @@ const EmotionSchema = new Schema({
   surprise: Number,
 });
 
-var Emotion = mongoose.model('Emotion', EmotionSchema);
+const Emotion = mongoose.model('Emotion', EmotionSchema);
 
-const find = (id) => {
-	return Emotion.find({ id })
-    .lean()
-    .exec()
-    .then((emotions) => {
-      return emotion[0];
-    });
-}
+const find = id => Emotion.find({ id })
+  .lean()
+  .exec()
+  .then(emotions => emotions[0]);
 
 const upsert = (doc) => {
-	var emotion = new Emotion(doc);
-	var obj = emotion.toObject();
+  const emotion = new Emotion(doc);
+  const obj = emotion.toObject();
 
-	return emotion.validate()
-    .then(function() {
-      return Emotion
-        .findOneAndUpdate({ id: obj._id }, obj, { upsert: true, new: true })
-        .lean()
-        .exec();
-    });
-}
+  return emotion.validate()
+    .then(() => Emotion
+      .findOneAndUpdate({ id: obj._id }, obj, { upsert: true, new: true }) // eslint-disable-line
+      .lean()
+      .exec());
+};
 module.exports = { find, upsert };

@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-const Schema = mongoose.Schema;
-const ObjectId = Schema.ObjectId;
- 
+const { Schema } = mongoose;
+const { ObjectId } = Schema;
+
 const FrameSchema = new Schema({
   id: ObjectId,
   sessionId: String,
@@ -10,34 +10,26 @@ const FrameSchema = new Schema({
   videoTimestamp: Number,
 });
 
-var Frame = mongoose.model('Frame', FrameSchema);
+const Frame = mongoose.model('Frame', FrameSchema);
 
-const find = (id) => {
-	return Frame.find({ id })
-    .lean()
-    .exec()
-    .then((frames) => {
-      return frames[0];
-    });
-}
+const find = id => Frame.find({ id })
+  .lean()
+  .exec()
+  .then(frames => frames[0]);
 
-const findBySession = (sessionId = '007') => {
-  return Frame.find({ "sessionId": sessionId })
-    .lean()
-    .exec()
-    .then((frames) => frames);
-}
+const findBySession = (sessionId = '007') => Frame.find({ sessionId })
+  .lean()
+  .exec()
+  .then(frames => frames);
 
 const upsert = (doc) => {
-	var frame = new Frame(doc);
-	var obj = frame.toObject();
+  const frame = new Frame(doc);
+  const obj = frame.toObject();
 
-	return frame.validate()
-    .then(function() {
-      return Frame
-        .findOneAndUpdate({ id: obj._id }, obj, { upsert: true, new: true })
-        .lean()
-        .exec();
-    });
-}
+  return frame.validate()
+    .then(() => Frame
+      .findOneAndUpdate({ id: obj._id }, obj, { upsert: true, new: true }) // eslint-disable-line
+      .lean()
+      .exec());
+};
 module.exports = { find, findBySession, upsert };
