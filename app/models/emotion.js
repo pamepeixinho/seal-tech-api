@@ -32,4 +32,5 @@ const upsert = (doc) => {
       .lean()
       .exec());
 };
+
 module.exports = { find, upsert };
