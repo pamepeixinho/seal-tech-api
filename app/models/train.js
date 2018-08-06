@@ -45,4 +45,14 @@ const upsert = (doc, callback) => {
     .exec(callback);
 };
 
-module.exports = { find, upsert, selectAll };
+const addNewEmotion = (id, emotions, callback) => {
+  console.log(emotions);
+  return Train
+    .findByIdAndUpdate(id, { $push: { emotions } })
+    .lean()
+    .exec(callback);
+};
+
+module.exports = {
+  find, upsert, selectAll, addNewEmotion,
+};

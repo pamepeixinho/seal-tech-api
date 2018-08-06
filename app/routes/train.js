@@ -1,6 +1,9 @@
 const express = require('express');
+const path = require('path');
+const fs = require('fs');
 
-const { upsert, selectAll } = require('../models/train');
+const { upsert, selectAll, addNewEmotion } = require('../models/train');
+const { uploadToS3 } = require('../controllers/S3.js');
 
 const router = express.Router();
 
@@ -31,8 +34,32 @@ router.post('/initial-data', (req, res) => {
   });
 });
 
-router.post('/upload-emotion', (req, res) => {
+router.post('/upload-frame/:id', (req, res) => {
   console.log(req, res);
+  const { id } = req.params;
+  console.log(id);
+
+  const { image } = req.body;
+
+  const filePath = path.join(__dirname, `../static/frame-${new Date().getTime()}.jpg`);
+  const data = image.replace(/^data:image\/\w+;base64,/, '');
+  const buf = new Buffer(data, 'base64'); // eslint-disable-line
+
+  fs.writeFile(filePath, buf, (err) => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log('The file was saved!');
+      uploadToS3(filePath, (prediction) => {
+        console.log(prediction);
+        addNewEmotion(id, prediction, (err2) => {
+          if (!err2) {
+            res.send();
+          }
+        });
+      });
+    }
+  });
 });
 
 router.post('/answers', (req, res) => {
