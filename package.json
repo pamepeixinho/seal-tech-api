@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app/index.js",
-    "deploy": "heroku git:remote -a focaai-api && git push heroku master"
+    "deploy:production": "heroku git:remote -a focaai-api && git push heroku master"
   },
   "repository": {
     "type": "git",
