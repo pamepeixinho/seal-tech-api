@@ -7,7 +7,7 @@ const {
   selectAll,
   addNewEmotion,
   findAndUpdate,
-} = require('../../models/train');
+} = require('../../models/trainning');
 const { uploadToS3 } = require('../../controllers/S3.js');
 
 const router = express.Router();
@@ -71,9 +71,7 @@ router.post('/answers/:id', (req, res) => {
   const { body } = req;
   const { id } = req.params;
 
-  const { grade } = body;
-
-  findAndUpdate(id, { grade }, (err, doc) => {
+  findAndUpdate(id, body, (err, doc) => {
     console.log('doc', doc);
     res.send(doc);
   });

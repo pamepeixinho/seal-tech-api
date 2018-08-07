@@ -11,10 +11,11 @@ const { connect } = require('./setup-db');
 const dashboard = require('./routes/v1/dashboard');
 const frame = require('./routes/v1/frame');
 const finish = require('./routes/v1/finish');
-const train = require('./routes/v1/train');
+const trainning = require('./routes/v1/trainning');
 
 // V2
 const frameV2 = require('./routes/v2/frame');
+const trainningV2 = require('./routes/v2/trainning');
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -31,9 +32,10 @@ app.use(bodyParser.json());
 app.use('/dashboard', dashboard);
 app.use('/frame', frame);
 app.use('/finish', finish);
-app.use('/train', train);
+app.use('/trainning', trainning);
 
 app.use('/v2/frame', frameV2);
+app.use('/v2/trainning', trainningV2);
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
