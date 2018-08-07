@@ -7,8 +7,8 @@ const {
   selectAll,
   addNewEmotion,
   findAndUpdate,
-} = require('../models/train');
-const { uploadToS3 } = require('../controllers/S3.js');
+} = require('../../models/train');
+const { uploadToS3 } = require('../../controllers/S3.js');
 
 const router = express.Router();
 
