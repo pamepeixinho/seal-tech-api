@@ -11,7 +11,7 @@ const { connect } = require('./setup-db');
 const dashboard = require('./routes/v1/dashboard');
 const frame = require('./routes/v1/frame');
 const finish = require('./routes/v1/finish');
-const train = require('./routes/v1/train');
+const trainning = require('./routes/v1/trainning');
 
 // V2
 const frameV2 = require('./routes/v2/frame');
@@ -31,7 +31,7 @@ app.use(bodyParser.json());
 app.use('/dashboard', dashboard);
 app.use('/frame', frame);
 app.use('/finish', finish);
-app.use('/train', train);
+app.use('/trainning', trainning);
 
 app.use('/v2/frame', frameV2);
 
