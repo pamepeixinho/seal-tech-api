@@ -33,7 +33,7 @@ app.use('/frame', frame);
 app.use('/finish', finish);
 app.use('/train', train);
 
-app.use('v2/frame', frameV2);
+app.use('/v2/frame', frameV2);
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
