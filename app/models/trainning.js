@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 const { ObjectId } = Schema;
 
-const TrainSchema = new Schema({
+const TrainningSchema = new Schema({
   id: ObjectId,
   name: String,
   classLink: String,
@@ -18,28 +18,41 @@ const TrainSchema = new Schema({
     surprise: Number,
   }],
   grade: Number,
+  interesting: Number,
+  previousKnowledge: Number,
+  attention: Number,
+  longVideo: Number,
+  tooMuchContent: Number,
+  noPause: Number,
+  moreDynamic: Number,
+  likeDidactics: Number,
+  goodExamples: Number,
+  goodExperience: Number,
+  haveCommitment: Number,
+  continueVideosLikeThis: Number,
+  recommendVideo: Number,
 });
 
-const Train = mongoose.model('Train', TrainSchema);
+const Trainning = mongoose.model('Trainning', TrainningSchema);
 
 const selectAll = (callback) => {
-  const fields = Object.keys(TrainSchema.paths).join(' ');
+  const fields = Object.keys(TrainningSchema.paths).join(' ');
 
   // and when execute a query
-  Train.find({}).select(fields).exec(callback);
+  Trainning.find({}).select(fields).exec(callback);
 };
 
-const find = id => Train.find({ id })
+const find = id => Trainning.find({ id })
   .lean()
   .exec()
   .then(emotions => emotions);
 
 const upsert = (doc, callback) => {
-  const train = new Train(doc);
-  const obj = train.toObject();
+  const trainning = new Trainning(doc);
+  const obj = trainning.toObject();
   console.log('obj', obj);
 
-  return Train
+  return Trainning
     .findOneAndUpdate({ id: obj._id }, obj, { upsert: true, new: true }) // eslint-disable-line
     .lean()
     .exec(callback);
@@ -47,16 +60,19 @@ const upsert = (doc, callback) => {
 
 const addNewEmotion = (id, emotions, callback) => {
   console.log(emotions);
-  return Train
+  return Trainning
     .findByIdAndUpdate(id, { $push: { emotions } })
     .lean()
     .exec(callback);
 };
 
-const findAndUpdate = (id, data, callback) => Train
-  .findByIdAndUpdate(id, data)
-  .lean()
-  .exec(callback);
+const findAndUpdate = (id, data, callback) => {
+  console.log(id, data);
+  return Trainning
+    .findByIdAndUpdate(id, data)
+    .lean()
+    .exec(callback);
+};
 
 module.exports = {
   find, upsert, selectAll, addNewEmotion, findAndUpdate,
