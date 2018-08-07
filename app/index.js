@@ -15,6 +15,7 @@ const trainning = require('./routes/v1/trainning');
 
 // V2
 const frameV2 = require('./routes/v2/frame');
+const trainningV2 = require('./routes/v2/trainning');
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -34,6 +35,7 @@ app.use('/finish', finish);
 app.use('/trainning', trainning);
 
 app.use('/v2/frame', frameV2);
+app.use('/v2/trainning', trainningV2);
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
