@@ -2,7 +2,7 @@ const AWS = require('aws-sdk');
 
 const config = require('../config');
 const { upsert } = require('../models/frame');
-const { getEmotionRecognition } = require('../controllers/EmotionRecognition');
+const { recognizeByUrl } = require('../controllers/EmotionRecognition');
 
 
 AWS.config.update({ region: 'us-west-2' });
@@ -24,6 +24,8 @@ const sessionId = '007';
 const videoTimeStamp = 12.0;
 
 const uploadToS3 = (filePath, cb) => {
+  console.error('DEPRECATED API, DO NOT USE');
+
   const fs = require('fs'); // eslint-disable-line
   const fileStream = fs.createReadStream(filePath);
   fileStream.on('error', (err) => {
@@ -47,7 +49,7 @@ const uploadToS3 = (filePath, cb) => {
         videoTimeStamp,
       });
 
-      getEmotionRecognition(data.Location)
+      recognizeByUrl(data.Location)
         .then((data) => { // eslint-disable-line
           cb(data);
         }).catch((error) => { throw new Error(error); });

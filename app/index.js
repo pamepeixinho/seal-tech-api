@@ -5,11 +5,16 @@ const fileUpload = require('express-fileupload');
 const bodyParser = require('body-parser');
 const { connect } = require('./setup-db');
 
-const dashboard = require('./routes/dashboard');
-const frame = require('./routes/frame');
-const finish = require('./routes/finish');
-const train = require('./routes/train');
-// const { upsert2 } = require('./examples/predictions-create');
+// TODO: Better handle versions.
+
+// V1
+const dashboard = require('./routes/v1/dashboard');
+const frame = require('./routes/v1/frame');
+const finish = require('./routes/v1/finish');
+const train = require('./routes/v1/train');
+
+// V2
+const frameV2 = require('./routes/v2/frame');
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -27,6 +32,8 @@ app.use('/dashboard', dashboard);
 app.use('/frame', frame);
 app.use('/finish', finish);
 app.use('/train', train);
+
+app.use('v2/frame', frameV2);
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
