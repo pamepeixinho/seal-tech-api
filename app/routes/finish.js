@@ -2,9 +2,9 @@ const express = require('express');
 const { ObjectID } = require('mongodb');
 
 const router = express.Router();
-const { findBySession } = require('../../models/frame');
-const { getEmotionRecognition } = require('../../controllers/EmotionRecognition');
-const { upsert } = require('../../models/prediction');
+const { findBySession } = require('../models/frame');
+const { getEmotionRecognition } = require('../controllers/EmotionRecognition');
+const { upsert } = require('../models/prediction');
 
 const aritimethicAverage = arr => arr.reduce((p, c) => p + c, 0) / arr.length;
 
