@@ -9,5 +9,5 @@ module.exports = {
   AWS_API_VERSION: nconf.get('AWS_API_VERSION') || '2006-03-01',
   AWS_KEY: nconf.get('AWS_KEY') || 'AKIAJLWFAUTBJCUXTEBQ',
   AWS_SECRET_KEY: nconf.get('AWS_SECRET_KEY') || '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',
-  CLASSIFICATOR_API_URL: nconf.get('CLASSIFICATOR_API_URL') || 'http://0.0.0.0:5000/',
+  CLASSIFICATOR_API_URL: nconf.get('CLASSIFICATOR_API_URL') || 'http://0.0.0.0:5000',
 };

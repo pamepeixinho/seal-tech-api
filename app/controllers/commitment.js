@@ -5,16 +5,16 @@ const buildQueryStrings = obj => Object.keys(obj)
   .map(k => `${encodeURIComponent(k)}=${encodeURIComponent(obj[k])}`)
   .join('&');
 
-const buildRequest = emotions => ({
-  method: 'get',
-  url: `${config.CLASSIFICATOR_API_URL}/predict?${buildQueryStrings(emotions)}`,
-});
+// const buildRequest = (emotions) => {
+//   console.log('TESTEEEEEE');
+//   const url = `${config.CLASSIFICATOR_API_URL}/predict?${buildQueryStrings(emotions)}`;
+//   console.log(url);
+//   return ({
+//     method: 'get',
+//     url,
+//   });
+// };
 
-const commitmentByEmotions = emotions => axios(buildRequest(emotions))
-  .then((commiment) => {
-    console.log(commiment);
-    return commiment;
-  })
-  .catch(error => error);
+const commitmentByEmotions = emotions => axios.get(`${config.CLASSIFICATOR_API_URL}/predict?${buildQueryStrings(emotions)}`);
 
 module.exports = { commitmentByEmotions };
