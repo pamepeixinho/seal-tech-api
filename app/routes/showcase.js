@@ -8,15 +8,14 @@ const router = express.Router();
 router.post('/frame', (req, res) => {
   const { image } = req.body;
 
-  const data = image.replace(/^data:image\/\w+;base64,/, '');
-  const buf = new Buffer(data, 'base64'); // eslint-disable-line
+  const imgdata = image.replace(/^data:image\/\w+;base64,/, '');
+  const buf = new Buffer(imgdata, 'base64'); // eslint-disable-line
 
   recognizeByBlob(buf)
     .then((prediction) => {
       console.log(prediction);
-      commitmentByEmotions(prediction).then(({ commitment }) => {
-        console.log(commitment);
-        res.send({ ...prediction, commitment });
+      commitmentByEmotions(prediction).then(({ data }) => {
+        res.send({ ...prediction, commitment: data.commitment });
       });
     });
 });
