@@ -10,6 +10,7 @@ const { connect } = require('./setup-db');
 const dashboard = require('./routes/dashboard');
 const finish = require('./routes/finish');
 const client = require('./routes/client');
+const showcase = require('./routes/showcase');
 
 // V1
 const frame = require('./routes/v1/frame');
@@ -34,6 +35,7 @@ app.use(bodyParser.json());
 app.use('/dashboard', dashboard);
 app.use('/finish', finish);
 app.use('/client', client);
+app.use('/showcase', showcase);
 
 app.use('/frame', frame);
 app.use('/trainning', trainning);
