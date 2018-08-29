@@ -3,15 +3,15 @@ const config = require('../config');
 
 const buildRequest = (contentType, body) => ({
   method: 'post',
-  url: config.EMOTIONS_API_URL,
+  url: config.FACE_API_URL,
   headers: {
     'Content-Type': `${contentType}`,
-    'Ocp-Apim-Subscription-Key': config.EMOTIONS_API_KEY,
+    'Ocp-Apim-Subscription-Key': config.FACE_API_KEY,
   },
   data: body,
 });
 
-const parseResponse = response => response.data[0].scores;
+const parseResponse = response => response.data[0].faceAttributes.emotion;
 
 const recognizeByUrl = imgUrl => axios(buildRequest('application/json', { url: imgUrl }))
   .then(parseResponse)
