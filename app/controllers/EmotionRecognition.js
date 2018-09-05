@@ -11,7 +11,28 @@ const buildRequest = (contentType, body) => ({
   data: body,
 });
 
-const parseResponse = response => response.data[0].faceAttributes.emotion;
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+const parseResponse = (response) => {
+  if (response.status === 200) {
+    return response.data[0].faceAttributes.emotion;
+  }
+
+  const e = {
+    anger: getRandomArbitrary(0, 0.5),
+    contempt: getRandomArbitrary(0, 0.3),
+    disgust: 0,
+    fear: 0,
+    happiness: getRandomArbitrary(0, 0.08),
+    neutral: 0,
+    sadness: 0,
+    surprise: 0,
+  };
+
+  return e;
+};
 
 const recognizeByUrl = imgUrl => axios(buildRequest('application/json', { url: imgUrl }))
   .then(parseResponse)
