@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app/index.js",
+    "watch": "nodemon app/index.js",
     "deploy:production": "heroku git:remote -a focaai-api && git push heroku master",
     "lint": "eslint -- ."
   },
