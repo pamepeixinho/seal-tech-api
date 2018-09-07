@@ -7,7 +7,6 @@ const { connect } = require('./setup-db');
 
 // TODO: Better handle versions.
 
-const dashboard = require('./routes/dashboard');
 const finish = require('./routes/finish');
 const client = require('./routes/client');
 const showcase = require('./routes/showcase');
@@ -15,10 +14,12 @@ const showcase = require('./routes/showcase');
 // V1
 const frame = require('./routes/v1/frame');
 const trainning = require('./routes/v1/trainning');
+const dashboard = require('./routes/v1/dashboard');
 
 // V2
 const frameV2 = require('./routes/v2/frame');
 const trainningV2 = require('./routes/v2/trainning');
+const dashboardV2 = require('./routes/v2/dashboard');
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -42,6 +43,7 @@ app.use('/trainning', trainning);
 
 app.use('/v2/frame', frameV2);
 app.use('/v2/trainning', trainningV2);
+app.use('/v2/dashboard', dashboardV2);
 
 const port = process.env.PORT || 4000;
 
