@@ -12,7 +12,7 @@
           "_id": "5b5dee99870cd72801834f77",
           "id": 1,
           "name": "introducao",
-          "meanCommitment": 0.7624999957063539,
+          "meanCommitment": 0.7824999957063539,
           "commitmentPerStudent": [
             {
               "_id": "5b5dee99870cd72801834f9c",
@@ -518,7 +518,7 @@
           "_id": "5b5dee99870cd72801834f77",
           "id": 1,
           "name": "introducao",
-          "meanCommitment": 0.7624999957063539,
+          "meanCommitment": 0.6424999957063539,
           "commitmentPerStudent": [
             {
               "_id": "5b5dee99870cd72801834f9c",
@@ -1024,7 +1024,7 @@
           "_id": "5b5dee99870cd72801834f77",
           "id": 1,
           "name": "introducao",
-          "meanCommitment": 0.7624999957063539,
+          "meanCommitment": 0.8824999957063539,
           "commitmentPerStudent": [
             {
               "_id": "5b5dee99870cd72801834f9c",
@@ -1530,7 +1530,7 @@
           "_id": "5b5dee99870cd72801834f77",
           "id": 1,
           "name": "introducao",
-          "meanCommitment": 0.7624999957063539,
+          "meanCommitment": 0.67124999957063539,
           "commitmentPerStudent": [
             {
               "_id": "5b5dee99870cd72801834f9c",
