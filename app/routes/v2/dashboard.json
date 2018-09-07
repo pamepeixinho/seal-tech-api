@@ -508,6 +508,1524 @@
           "temporalCommitmentModules": []
         }
       ]
+    },
+    {
+      "_id": "5b5dee99870cd72801834f76",
+      "dropoutRate": 0.17,
+      "commitmentRate": 0.8812499978531769,
+      "modules": [
+        {
+          "_id": "5b5dee99870cd72801834f77",
+          "id": 1,
+          "name": "introducao",
+          "meanCommitment": 0.7624999957063539,
+          "commitmentPerStudent": [
+            {
+              "_id": "5b5dee99870cd72801834f9c",
+              "name": "Jane Dawson",
+              "commitment": 75.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9b",
+              "name": "Mark Johnson",
+              "commitment": 88.1
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9a",
+              "name": "John Locke",
+              "commitment": 33.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f99",
+              "name": "Kate Lilly",
+              "commitment": 22.4
+            },
+            {
+              "_id": "5b5dee99870cd72801834f98",
+              "name": "James Ford",
+              "commitment": 77.1
+            },
+            {
+              "_id": "5b5dee99870cd72801834f97",
+              "name": "Jack Sheppard",
+              "commitment": 22.3
+            },
+            {
+              "_id": "5b5dee99870cd72801834f96",
+              "name": "Peter Petrelli",
+              "commitment": 77.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f95",
+              "name": "Mathew Murduck",
+              "commitment": 66.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f94",
+              "name": "Miranda Marcus",
+              "commitment": 77.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f93",
+              "name": "Jill Valentine",
+              "commitment": 33.3
+            },
+            {
+              "_id": "5b5dee99870cd72801834f92",
+              "name": "Rachel Green",
+              "commitment": 33.4
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Mario J. Abrahan",
+              "commitment": 12.3
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Claire Redfiled",
+              "commitment": 44.4
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Joana Max",
+              "commitment": 33.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "El Even",
+              "commitment": 76.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Peach P.",
+              "commitment": 22.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Rohana Drake",
+              "commitment": 76.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Memo Daiko",
+              "commitment": 88.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Rafael Trindade",
+              "commitment": 99.9
+            }
+          ],
+          "temoporalCommitment": [
+            {
+              "_id": "5b5dee99870cd72801834fc1",
+              "week": 1,
+              "commitment": 0.07
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc0",
+              "week": 1,
+              "commitment": 0.05
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbf",
+              "week": 1,
+              "commitment": 0.03
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbe",
+              "week": 1,
+              "commitment": 0.07
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbd",
+              "week": 1,
+              "commitment": 0.23
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbc",
+              "week": 1,
+              "commitment": 0.12
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbb",
+              "week": 1,
+              "commitment": 0.07
+            },
+            {
+              "_id": "5b5dee99870cd72801834fba",
+              "week": 1,
+              "commitment": 0.22
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb9",
+              "week": 1,
+              "commitment": 0.44
+            },
+            { "_id": "5b5dee99870cd72801834fb8", "week": 1, "commitment": 0 },
+            {
+              "_id": "5b5dee99870cd72801834fb7",
+              "week": 1,
+              "commitment": 0.12
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb6",
+              "week": 1,
+              "commitment": 0.11
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb5",
+              "week": 1,
+              "commitment": 0.44
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb4",
+              "week": 1,
+              "commitment": 0.77
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb3",
+              "week": 1,
+              "commitment": 0.12
+            },
+            { "_id": "5b5dee99870cd72801834fb2", "week": 1, "commitment": 0.2 },
+            {
+              "_id": "5b5dee99870cd72801834fb1",
+              "week": 1,
+              "commitment": 0.22
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb0",
+              "week": 1,
+              "commitment": 0.72
+            },
+            {
+              "_id": "5b5dee99870cd72801834faf",
+              "week": 1,
+              "commitment": 0.12
+            },
+            {
+              "_id": "5b5dee99870cd72801834fae",
+              "week": 1,
+              "commitment": 0.77
+            },
+            {
+              "_id": "5b5dee99870cd72801834fad",
+              "week": 1,
+              "commitment": 0.88
+            },
+            {
+              "_id": "5b5dee99870cd72801834fac",
+              "week": 1,
+              "commitment": 0.33
+            },
+            {
+              "_id": "5b5dee99870cd72801834fab",
+              "week": 1,
+              "commitment": 0.11
+            },
+            {
+              "_id": "5b5dee99870cd72801834faa",
+              "week": 1,
+              "commitment": 0.45
+            },
+            { "_id": "5b5dee99870cd72801834fa9", "week": 1, "commitment": 0 },
+            {
+              "_id": "5b5dee99870cd72801834fa8",
+              "week": 1,
+              "commitment": 0.77
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa7",
+              "week": 1,
+              "commitment": 0.67
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa6",
+              "week": 1,
+              "commitment": 0.98
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa5",
+              "week": 1,
+              "commitment": 0.77
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa4",
+              "week": 1,
+              "commitment": 0.44
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa3",
+              "week": 1,
+              "commitment": 0.76
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa2",
+              "week": 1,
+              "commitment": 0.98
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa1",
+              "week": 1,
+              "commitment": 0.33
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa0",
+              "week": 1,
+              "commitment": 0.12
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9f",
+              "week": 1,
+              "commitment": 0.87
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9e",
+              "week": 1,
+              "commitment": 0.86
+            },
+            { "_id": "5b5dee99870cd72801834f9d", "week": 1, "commitment": 0.14 }
+          ],
+          "classes": [
+            {
+              "_id": "5b5dee99870cd72801834fe6",
+              "tittle": "na prática",
+              "commitment": 0.44719509728207455,
+              "date": "2018-07-29T16:43:05.048Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe5",
+              "tittle": "pré-ferido",
+              "commitment": 0.223391418399018973,
+              "date": "2018-07-29T16:43:05.053Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe4",
+              "tittle": "na prática",
+              "commitment": 0.23134346826581032,
+              "date": "2018-07-29T16:43:05.058Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe3",
+              "tittle": "off",
+              "commitment": 0.038310126510131596,
+              "date": "2018-07-29T16:43:05.068Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe2",
+              "tittle": "introdução",
+              "commitment": 0.046605277884185574,
+              "date": "2018-07-29T16:43:05.078Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe1",
+              "tittle": "pré-ferido",
+              "commitment": 0.0506327187510513,
+              "date": "2018-07-29T16:43:05.094Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe0",
+              "tittle": "na prática",
+              "commitment": 0.1761612272351342,
+              "date": "2018-07-29T16:43:05.102Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdf",
+              "tittle": "algorítimos",
+              "commitment": 0.19886808085360353,
+              "date": "2018-07-29T16:43:05.110Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fde",
+              "tittle": "pré-ferido",
+              "commitment": 0.02545963894867763,
+              "date": "2018-07-29T16:43:05.127Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdd",
+              "tittle": "na prática",
+              "commitment": 0.24694390318016243,
+              "date": "2018-07-29T16:43:05.138Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdc",
+              "tittle": "na prática",
+              "commitment": 0.12911280652827612,
+              "date": "2018-07-29T16:43:05.152Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdb",
+              "tittle": "introdução",
+              "commitment": 0.079129021476601083,
+              "date": "2018-07-29T16:43:05.161Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fda",
+              "tittle": "na prática",
+              "commitment": 0.22023792508493457,
+              "date": "2018-07-29T16:43:05.172Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd9",
+              "tittle": "off",
+              "commitment": 0.12615058356758768,
+              "date": "2018-07-29T16:43:05.185Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd8",
+              "tittle": "introdução",
+              "commitment": 0.084352518688925871,
+              "date": "2018-07-29T16:43:05.204Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd7",
+              "tittle": "pré-ferido",
+              "commitment": 0.05432812803818565,
+              "date": "2018-07-29T16:43:05.216Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd6",
+              "tittle": "off",
+              "commitment": 0.08496841714107137,
+              "date": "2018-07-29T16:43:05.234Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd5",
+              "tittle": "pré-ferido",
+              "commitment": 0.05676568346105904,
+              "date": "2018-07-29T16:43:05.254Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd4",
+              "tittle": "introdução",
+              "commitment": 0.14066856561025203,
+              "date": "2018-07-29T16:43:05.270Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd3",
+              "tittle": "off",
+              "commitment": 0.27013841843989957,
+              "date": "2018-07-29T16:43:05.288Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd2",
+              "tittle": "na prática",
+              "commitment": 0.03751845374146543,
+              "date": "2018-07-29T16:43:05.302Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd1",
+              "tittle": "na prática",
+              "commitment": 0.02040573589734163,
+              "date": "2018-07-29T16:43:05.318Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd0",
+              "tittle": "pré-ferido",
+              "commitment": 0.15773394408305867,
+              "date": "2018-07-29T16:43:05.332Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcf",
+              "tittle": "introdução",
+              "commitment": 0.22218090867777083,
+              "date": "2018-07-29T16:43:05.347Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fce",
+              "tittle": "pré-ferido",
+              "commitment": 0.18112500493871707,
+              "date": "2018-07-29T16:43:05.363Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcd",
+              "tittle": "off",
+              "commitment": 0.18764246630305775,
+              "date": "2018-07-29T16:43:05.380Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcc",
+              "tittle": "off",
+              "commitment": 0.22770686150457804,
+              "date": "2018-07-29T16:43:05.396Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcb",
+              "tittle": "na prática",
+              "commitment": 0.14123542248350449,
+              "date": "2018-07-29T16:43:05.413Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fca",
+              "tittle": "na prática",
+              "commitment": 0.12096020236072888,
+              "date": "2018-07-29T16:43:05.429Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc9",
+              "tittle": "pré-ferido",
+              "commitment": 0.11653610503894855,
+              "date": "2018-07-29T16:43:05.449Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc8",
+              "tittle": "pré-ferido",
+              "commitment": 0.001697368684908424,
+              "date": "2018-07-29T16:43:05.467Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc7",
+              "tittle": "off",
+              "commitment": 0.07257244485477599,
+              "date": "2018-07-29T16:43:05.487Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc6",
+              "tittle": "introdução",
+              "commitment": 0.05755641960922567,
+              "date": "2018-07-29T16:43:05.505Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc5",
+              "tittle": "na prática",
+              "commitment": 0.11932766689410501,
+              "date": "2018-07-29T16:43:05.522Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc4",
+              "tittle": "introdução",
+              "commitment": 0.024503289314003016,
+              "date": "2018-07-29T16:43:05.542Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc3",
+              "tittle": "pré-ferido",
+              "commitment": 0.12133851566664514,
+              "date": "2018-07-29T16:43:05.564Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc2",
+              "tittle": "introdução",
+              "commitment": 0.09875536217305035,
+              "date": "2018-07-29T16:43:05.587Z"
+            }
+          ],
+          "temporalCommitmentModules": []
+        }
+      ]
+    },
+    {
+      "_id": "5b5dee99870cd72801834f76",
+      "dropoutRate": 0.03,
+      "commitmentRate": 0.7712499978531769,
+      "modules": [
+        {
+          "_id": "5b5dee99870cd72801834f77",
+          "id": 1,
+          "name": "introducao",
+          "meanCommitment": 0.7624999957063539,
+          "commitmentPerStudent": [
+            {
+              "_id": "5b5dee99870cd72801834f9c",
+              "name": "Jane Dawson",
+              "commitment": 87.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9b",
+              "name": "Mark Johnson",
+              "commitment": 55.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9a",
+              "name": "John Locke",
+              "commitment": 98.1
+            },
+            {
+              "_id": "5b5dee99870cd72801834f99",
+              "name": "Kate Lilly",
+              "commitment": 12.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f98",
+              "name": "James Ford",
+              "commitment": 94.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f97",
+              "name": "Jack Sheppard",
+              "commitment": 75.9
+            },
+            {
+              "_id": "5b5dee99870cd72801834f96",
+              "name": "Peter Petrelli",
+              "commitment": 52.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f95",
+              "name": "Mathew Murduck",
+              "commitment": 97.7
+            },
+            {
+              "_id": "5b5dee99870cd72801834f94",
+              "name": "Miranda Marcus",
+              "commitment": 91.5
+            },
+            {
+              "_id": "5b5dee99870cd72801834f93",
+              "name": "Jill Valentine",
+              "commitment": 77.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f92",
+              "name": "Rachel Green",
+              "commitment": 98.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Mario J. Abrahan",
+              "commitment": 97.1
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Claire Redfiled",
+              "commitment": 78.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Joana Max",
+              "commitment": 92.3
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "El Even",
+              "commitment": 55.9
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Peach P.",
+              "commitment": 71.7
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Rohana Drake",
+              "commitment": 88.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Memo Daiko",
+              "commitment": 69.5
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Rafael Trindade",
+              "commitment": 57.1
+            }
+          ],
+          "temoporalCommitment": [
+            {
+              "_id": "5b5dee99870cd72801834fc1",
+              "week": 1,
+              "commitment": 0.09
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc0",
+              "week": 1,
+              "commitment": 0.09
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbf",
+              "week": 1,
+              "commitment": 0.05
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbe",
+              "week": 1,
+              "commitment": 0.09
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbd",
+              "week": 1,
+              "commitment": 0.11
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbc",
+              "week": 1,
+              "commitment": 0.04
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbb",
+              "week": 1,
+              "commitment": 0.18
+            },
+            {
+              "_id": "5b5dee99870cd72801834fba",
+              "week": 1,
+              "commitment": 0.07
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb9",
+              "week": 1,
+              "commitment": 0.19
+            },
+            { "_id": "5b5dee99870cd72801834fb8", "week": 1, "commitment": 0 },
+            {
+              "_id": "5b5dee99870cd72801834fb7",
+              "week": 1,
+              "commitment": 0.18
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb6",
+              "week": 1,
+              "commitment": 0.22
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb5",
+              "week": 1,
+              "commitment": 0.02
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb4",
+              "week": 1,
+              "commitment": 0.22
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb3",
+              "week": 1,
+              "commitment": 0.01
+            },
+            { "_id": "5b5dee99870cd72801834fb2", "week": 1, "commitment": 0.2 },
+            {
+              "_id": "5b5dee99870cd72801834fb1",
+              "week": 1,
+              "commitment": 0.15
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb0",
+              "week": 1,
+              "commitment": 0.19
+            },
+            {
+              "_id": "5b5dee99870cd72801834faf",
+              "week": 1,
+              "commitment": 0.15
+            },
+            {
+              "_id": "5b5dee99870cd72801834fae",
+              "week": 1,
+              "commitment": 0.06
+            },
+            {
+              "_id": "5b5dee99870cd72801834fad",
+              "week": 1,
+              "commitment": 0.17
+            },
+            {
+              "_id": "5b5dee99870cd72801834fac",
+              "week": 1,
+              "commitment": 0.21
+            },
+            {
+              "_id": "5b5dee99870cd72801834fab",
+              "week": 1,
+              "commitment": 0.04
+            },
+            {
+              "_id": "5b5dee99870cd72801834faa",
+              "week": 1,
+              "commitment": 0.14
+            },
+            { "_id": "5b5dee99870cd72801834fa9", "week": 1, "commitment": 0 },
+            {
+              "_id": "5b5dee99870cd72801834fa8",
+              "week": 1,
+              "commitment": 0.02
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa7",
+              "week": 1,
+              "commitment": 0.23
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa6",
+              "week": 1,
+              "commitment": 0.11
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa5",
+              "week": 1,
+              "commitment": 0.12
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa4",
+              "week": 1,
+              "commitment": 0.22
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa3",
+              "week": 1,
+              "commitment": 0.24
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa2",
+              "week": 1,
+              "commitment": 0.21
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa1",
+              "week": 1,
+              "commitment": 0.17
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa0",
+              "week": 1,
+              "commitment": 0.09
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9f",
+              "week": 1,
+              "commitment": 0.16
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9e",
+              "week": 1,
+              "commitment": 0.14
+            },
+            { "_id": "5b5dee99870cd72801834f9d", "week": 1, "commitment": 0.14 }
+          ],
+          "classes": [
+            {
+              "_id": "5b5dee99870cd72801834fe6",
+              "tittle": "na prática",
+              "commitment": 0.10719509728207455,
+              "date": "2018-07-29T16:43:05.048Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe5",
+              "tittle": "pré-ferido",
+              "commitment": 0.013391418399018973,
+              "date": "2018-07-29T16:43:05.053Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe4",
+              "tittle": "na prática",
+              "commitment": 0.11134346826581032,
+              "date": "2018-07-29T16:43:05.058Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe3",
+              "tittle": "off",
+              "commitment": 0.018310126510131596,
+              "date": "2018-07-29T16:43:05.068Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe2",
+              "tittle": "introdução",
+              "commitment": 0.016605277884185574,
+              "date": "2018-07-29T16:43:05.078Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe1",
+              "tittle": "pré-ferido",
+              "commitment": 0.0606327187510513,
+              "date": "2018-07-29T16:43:05.094Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe0",
+              "tittle": "na prática",
+              "commitment": 0.1961612272351342,
+              "date": "2018-07-29T16:43:05.102Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdf",
+              "tittle": "algorítimos",
+              "commitment": 0.13886808085360353,
+              "date": "2018-07-29T16:43:05.110Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fde",
+              "tittle": "pré-ferido",
+              "commitment": 0.04545963894867763,
+              "date": "2018-07-29T16:43:05.127Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdd",
+              "tittle": "na prática",
+              "commitment": 0.21694390318016243,
+              "date": "2018-07-29T16:43:05.138Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdc",
+              "tittle": "na prática",
+              "commitment": 0.13911280652827612,
+              "date": "2018-07-29T16:43:05.152Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdb",
+              "tittle": "introdução",
+              "commitment": 0.029129021476601083,
+              "date": "2018-07-29T16:43:05.161Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fda",
+              "tittle": "na prática",
+              "commitment": 0.23023792508493457,
+              "date": "2018-07-29T16:43:05.172Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd9",
+              "tittle": "off",
+              "commitment": 0.15615058356758768,
+              "date": "2018-07-29T16:43:05.185Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd8",
+              "tittle": "introdução",
+              "commitment": 0.014352518688925871,
+              "date": "2018-07-29T16:43:05.204Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd7",
+              "tittle": "pré-ferido",
+              "commitment": 0.04432812803818565,
+              "date": "2018-07-29T16:43:05.216Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd6",
+              "tittle": "off",
+              "commitment": 0.07496841714107137,
+              "date": "2018-07-29T16:43:05.234Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd5",
+              "tittle": "pré-ferido",
+              "commitment": 0.05676568346105904,
+              "date": "2018-07-29T16:43:05.254Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd4",
+              "tittle": "introdução",
+              "commitment": 0.19066856561025203,
+              "date": "2018-07-29T16:43:05.270Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd3",
+              "tittle": "off",
+              "commitment": 0.20013841843989957,
+              "date": "2018-07-29T16:43:05.288Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd2",
+              "tittle": "na prática",
+              "commitment": 0.07751845374146543,
+              "date": "2018-07-29T16:43:05.302Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd1",
+              "tittle": "na prática",
+              "commitment": 0.04040573589734163,
+              "date": "2018-07-29T16:43:05.318Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd0",
+              "tittle": "pré-ferido",
+              "commitment": 0.13773394408305867,
+              "date": "2018-07-29T16:43:05.332Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcf",
+              "tittle": "introdução",
+              "commitment": 0.20218090867777083,
+              "date": "2018-07-29T16:43:05.347Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fce",
+              "tittle": "pré-ferido",
+              "commitment": 0.14112500493871707,
+              "date": "2018-07-29T16:43:05.363Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcd",
+              "tittle": "off",
+              "commitment": 0.11764246630305775,
+              "date": "2018-07-29T16:43:05.380Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcc",
+              "tittle": "off",
+              "commitment": 0.20770686150457804,
+              "date": "2018-07-29T16:43:05.396Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcb",
+              "tittle": "na prática",
+              "commitment": 0.14123542248350449,
+              "date": "2018-07-29T16:43:05.413Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fca",
+              "tittle": "na prática",
+              "commitment": 0.12096020236072888,
+              "date": "2018-07-29T16:43:05.429Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc9",
+              "tittle": "pré-ferido",
+              "commitment": 0.11653610503894855,
+              "date": "2018-07-29T16:43:05.449Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc8",
+              "tittle": "pré-ferido",
+              "commitment": 0.001697368684908424,
+              "date": "2018-07-29T16:43:05.467Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc7",
+              "tittle": "off",
+              "commitment": 0.07257244485477599,
+              "date": "2018-07-29T16:43:05.487Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc6",
+              "tittle": "introdução",
+              "commitment": 0.05755641960922567,
+              "date": "2018-07-29T16:43:05.505Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc5",
+              "tittle": "na prática",
+              "commitment": 0.11932766689410501,
+              "date": "2018-07-29T16:43:05.522Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc4",
+              "tittle": "introdução",
+              "commitment": 0.024503289314003016,
+              "date": "2018-07-29T16:43:05.542Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc3",
+              "tittle": "pré-ferido",
+              "commitment": 0.12133851566664514,
+              "date": "2018-07-29T16:43:05.564Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc2",
+              "tittle": "introdução",
+              "commitment": 0.09875536217305035,
+              "date": "2018-07-29T16:43:05.587Z"
+            }
+          ],
+          "temporalCommitmentModules": []
+        }
+      ]
+    },
+    {
+      "_id": "5b5dee99870cd72801834f76",
+      "dropoutRate": 0.36,
+      "commitmentRate": 0.1234499978531769,
+      "modules": [
+        {
+          "_id": "5b5dee99870cd72801834f77",
+          "id": 1,
+          "name": "introducao",
+          "meanCommitment": 0.7624999957063539,
+          "commitmentPerStudent": [
+            {
+              "_id": "5b5dee99870cd72801834f9c",
+              "name": "Jane Dawson",
+              "commitment": 75.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9b",
+              "name": "Mark Johnson",
+              "commitment": 88.1
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9a",
+              "name": "John Locke",
+              "commitment": 33.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f99",
+              "name": "Kate Lilly",
+              "commitment": 22.4
+            },
+            {
+              "_id": "5b5dee99870cd72801834f98",
+              "name": "James Ford",
+              "commitment": 77.1
+            },
+            {
+              "_id": "5b5dee99870cd72801834f97",
+              "name": "Jack Sheppard",
+              "commitment": 22.3
+            },
+            {
+              "_id": "5b5dee99870cd72801834f96",
+              "name": "Peter Petrelli",
+              "commitment": 77.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f95",
+              "name": "Mathew Murduck",
+              "commitment": 66.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f94",
+              "name": "Miranda Marcus",
+              "commitment": 77.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f93",
+              "name": "Jill Valentine",
+              "commitment": 33.3
+            },
+            {
+              "_id": "5b5dee99870cd72801834f92",
+              "name": "Rachel Green",
+              "commitment": 33.4
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Mario J. Abrahan",
+              "commitment": 12.3
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Claire Redfiled",
+              "commitment": 44.4
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Joana Max",
+              "commitment": 33.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "El Even",
+              "commitment": 76.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Peach P.",
+              "commitment": 22.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Rohana Drake",
+              "commitment": 76.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Memo Daiko",
+              "commitment": 88.2
+            },
+            {
+              "_id": "5b5dee99870cd72801834f91",
+              "name": "Rafael Trindade",
+              "commitment": 99.9
+            }
+          ],
+          "temoporalCommitment": [
+            {
+              "_id": "5b5dee99870cd72801834fc1",
+              "week": 1,
+              "commitment": 0.07
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc0",
+              "week": 1,
+              "commitment": 0.05
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbf",
+              "week": 1,
+              "commitment": 0.03
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbe",
+              "week": 1,
+              "commitment": 0.07
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbd",
+              "week": 1,
+              "commitment": 0.23
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbc",
+              "week": 1,
+              "commitment": 0.12
+            },
+            {
+              "_id": "5b5dee99870cd72801834fbb",
+              "week": 1,
+              "commitment": 0.07
+            },
+            {
+              "_id": "5b5dee99870cd72801834fba",
+              "week": 1,
+              "commitment": 0.22
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb9",
+              "week": 1,
+              "commitment": 0.44
+            },
+            { "_id": "5b5dee99870cd72801834fb8", "week": 1, "commitment": 0 },
+            {
+              "_id": "5b5dee99870cd72801834fb7",
+              "week": 1,
+              "commitment": 0.12
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb6",
+              "week": 1,
+              "commitment": 0.11
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb5",
+              "week": 1,
+              "commitment": 0.44
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb4",
+              "week": 1,
+              "commitment": 0.77
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb3",
+              "week": 1,
+              "commitment": 0.12
+            },
+            { "_id": "5b5dee99870cd72801834fb2", "week": 1, "commitment": 0.2 },
+            {
+              "_id": "5b5dee99870cd72801834fb1",
+              "week": 1,
+              "commitment": 0.22
+            },
+            {
+              "_id": "5b5dee99870cd72801834fb0",
+              "week": 1,
+              "commitment": 0.72
+            },
+            {
+              "_id": "5b5dee99870cd72801834faf",
+              "week": 1,
+              "commitment": 0.12
+            },
+            {
+              "_id": "5b5dee99870cd72801834fae",
+              "week": 1,
+              "commitment": 0.77
+            },
+            {
+              "_id": "5b5dee99870cd72801834fad",
+              "week": 1,
+              "commitment": 0.88
+            },
+            {
+              "_id": "5b5dee99870cd72801834fac",
+              "week": 1,
+              "commitment": 0.33
+            },
+            {
+              "_id": "5b5dee99870cd72801834fab",
+              "week": 1,
+              "commitment": 0.11
+            },
+            {
+              "_id": "5b5dee99870cd72801834faa",
+              "week": 1,
+              "commitment": 0.45
+            },
+            { "_id": "5b5dee99870cd72801834fa9", "week": 1, "commitment": 0 },
+            {
+              "_id": "5b5dee99870cd72801834fa8",
+              "week": 1,
+              "commitment": 0.77
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa7",
+              "week": 1,
+              "commitment": 0.67
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa6",
+              "week": 1,
+              "commitment": 0.98
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa5",
+              "week": 1,
+              "commitment": 0.77
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa4",
+              "week": 1,
+              "commitment": 0.44
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa3",
+              "week": 1,
+              "commitment": 0.76
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa2",
+              "week": 1,
+              "commitment": 0.98
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa1",
+              "week": 1,
+              "commitment": 0.33
+            },
+            {
+              "_id": "5b5dee99870cd72801834fa0",
+              "week": 1,
+              "commitment": 0.12
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9f",
+              "week": 1,
+              "commitment": 0.87
+            },
+            {
+              "_id": "5b5dee99870cd72801834f9e",
+              "week": 1,
+              "commitment": 0.86
+            },
+            { "_id": "5b5dee99870cd72801834f9d", "week": 1, "commitment": 0.14 }
+          ],
+          "classes": [
+            {
+              "_id": "5b5dee99870cd72801834fe6",
+              "tittle": "na prática",
+              "commitment": 0.44719509728207455,
+              "date": "2018-07-29T16:43:05.048Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe5",
+              "tittle": "pré-ferido",
+              "commitment": 0.223391418399018973,
+              "date": "2018-07-29T16:43:05.053Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe4",
+              "tittle": "na prática",
+              "commitment": 0.23134346826581032,
+              "date": "2018-07-29T16:43:05.058Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe3",
+              "tittle": "off",
+              "commitment": 0.038310126510131596,
+              "date": "2018-07-29T16:43:05.068Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe2",
+              "tittle": "introdução",
+              "commitment": 0.046605277884185574,
+              "date": "2018-07-29T16:43:05.078Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe1",
+              "tittle": "pré-ferido",
+              "commitment": 0.0506327187510513,
+              "date": "2018-07-29T16:43:05.094Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fe0",
+              "tittle": "na prática",
+              "commitment": 0.1761612272351342,
+              "date": "2018-07-29T16:43:05.102Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdf",
+              "tittle": "algorítimos",
+              "commitment": 0.19886808085360353,
+              "date": "2018-07-29T16:43:05.110Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fde",
+              "tittle": "pré-ferido",
+              "commitment": 0.02545963894867763,
+              "date": "2018-07-29T16:43:05.127Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdd",
+              "tittle": "na prática",
+              "commitment": 0.24694390318016243,
+              "date": "2018-07-29T16:43:05.138Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdc",
+              "tittle": "na prática",
+              "commitment": 0.12911280652827612,
+              "date": "2018-07-29T16:43:05.152Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fdb",
+              "tittle": "introdução",
+              "commitment": 0.079129021476601083,
+              "date": "2018-07-29T16:43:05.161Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fda",
+              "tittle": "na prática",
+              "commitment": 0.22023792508493457,
+              "date": "2018-07-29T16:43:05.172Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd9",
+              "tittle": "off",
+              "commitment": 0.12615058356758768,
+              "date": "2018-07-29T16:43:05.185Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd8",
+              "tittle": "introdução",
+              "commitment": 0.084352518688925871,
+              "date": "2018-07-29T16:43:05.204Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd7",
+              "tittle": "pré-ferido",
+              "commitment": 0.05432812803818565,
+              "date": "2018-07-29T16:43:05.216Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd6",
+              "tittle": "off",
+              "commitment": 0.08496841714107137,
+              "date": "2018-07-29T16:43:05.234Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd5",
+              "tittle": "pré-ferido",
+              "commitment": 0.05676568346105904,
+              "date": "2018-07-29T16:43:05.254Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd4",
+              "tittle": "introdução",
+              "commitment": 0.14066856561025203,
+              "date": "2018-07-29T16:43:05.270Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd3",
+              "tittle": "off",
+              "commitment": 0.27013841843989957,
+              "date": "2018-07-29T16:43:05.288Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd2",
+              "tittle": "na prática",
+              "commitment": 0.03751845374146543,
+              "date": "2018-07-29T16:43:05.302Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd1",
+              "tittle": "na prática",
+              "commitment": 0.02040573589734163,
+              "date": "2018-07-29T16:43:05.318Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fd0",
+              "tittle": "pré-ferido",
+              "commitment": 0.15773394408305867,
+              "date": "2018-07-29T16:43:05.332Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcf",
+              "tittle": "introdução",
+              "commitment": 0.22218090867777083,
+              "date": "2018-07-29T16:43:05.347Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fce",
+              "tittle": "pré-ferido",
+              "commitment": 0.18112500493871707,
+              "date": "2018-07-29T16:43:05.363Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcd",
+              "tittle": "off",
+              "commitment": 0.18764246630305775,
+              "date": "2018-07-29T16:43:05.380Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcc",
+              "tittle": "off",
+              "commitment": 0.22770686150457804,
+              "date": "2018-07-29T16:43:05.396Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fcb",
+              "tittle": "na prática",
+              "commitment": 0.14123542248350449,
+              "date": "2018-07-29T16:43:05.413Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fca",
+              "tittle": "na prática",
+              "commitment": 0.12096020236072888,
+              "date": "2018-07-29T16:43:05.429Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc9",
+              "tittle": "pré-ferido",
+              "commitment": 0.11653610503894855,
+              "date": "2018-07-29T16:43:05.449Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc8",
+              "tittle": "pré-ferido",
+              "commitment": 0.001697368684908424,
+              "date": "2018-07-29T16:43:05.467Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc7",
+              "tittle": "off",
+              "commitment": 0.07257244485477599,
+              "date": "2018-07-29T16:43:05.487Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc6",
+              "tittle": "introdução",
+              "commitment": 0.05755641960922567,
+              "date": "2018-07-29T16:43:05.505Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc5",
+              "tittle": "na prática",
+              "commitment": 0.11932766689410501,
+              "date": "2018-07-29T16:43:05.522Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc4",
+              "tittle": "introdução",
+              "commitment": 0.024503289314003016,
+              "date": "2018-07-29T16:43:05.542Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc3",
+              "tittle": "pré-ferido",
+              "commitment": 0.12133851566664514,
+              "date": "2018-07-29T16:43:05.564Z"
+            },
+            {
+              "_id": "5b5dee99870cd72801834fc2",
+              "tittle": "introdução",
+              "commitment": 0.09875536217305035,
+              "date": "2018-07-29T16:43:05.587Z"
+            }
+          ],
+          "temporalCommitmentModules": []
+        }
+      ]
     }
   ],
   "teacher": "mr teacher"
